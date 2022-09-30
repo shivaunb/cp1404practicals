@@ -16,5 +16,9 @@ in_file.close()
 print(f"Your name is {user_name}")
 
 # Question 3
-
+in_file = open("numbers.txt", "r")
+number_one = int(in_file.readline())
+number_two = int(in_file.readline())
+in_file.close()
+print(f"{number_one} + {number_two} = {number_one + number_two}")
 
