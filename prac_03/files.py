@@ -22,3 +22,11 @@ number_two = int(in_file.readline())
 in_file.close()
 print(f"{number_one} + {number_two} = {number_one + number_two}")
 
+# Question 4
+in_file = open("numbers.txt", "r")
+total = 0
+for line in in_file:
+    number = int(line)
+    total += number
+in_file.close()
+print(f"Your total is {total}")
