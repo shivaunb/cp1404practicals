@@ -8,6 +8,7 @@ Actual time: 45 minutes
 
 
 def main():
+    """Store user email and name in a dictionary."""
     email_to_name = {}
     email = input("Email: ")
     while email != "":
@@ -23,6 +24,7 @@ def main():
 
 
 def get_name_from_email(email):
+    """Extract potential user name from user email address."""
     prefix = email.split("@")
     parts = (prefix[0].split("."))
     name = " ".join(parts).title()
