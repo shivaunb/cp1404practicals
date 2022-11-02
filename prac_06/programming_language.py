@@ -2,7 +2,7 @@
 CP1404 Practical
 Languages Class
 Estimated time: 30 minutes
-Actual time:
+Actual time: 24 minutes
 """
 
 

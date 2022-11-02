@@ -2,7 +2,7 @@
 CP1404 Practical
 Code to use Languages Class
 Estimated time: 30 minutes
-Actual time:
+Actual time: 24 minutes
 """
 
 from prac_06.programming_language import ProgrammingLanguage
