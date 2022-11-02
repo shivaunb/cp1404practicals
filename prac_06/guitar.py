@@ -2,7 +2,7 @@
 CP1404 Practical
 Guitar Class
 Estimated time: 60 minutes
-Actual time:
+Actual time: 35 minutes
 """
 CURRENT_YEAR = 2022
 VINTAGE_AGE = 50

@@ -2,7 +2,7 @@
 CP1404 Practical
 Test Guitar Class
 Expected time: 60 minutes
-Actual time:
+Actual time: 35 minutes
 """
 
 from prac_06.guitar import Guitar
