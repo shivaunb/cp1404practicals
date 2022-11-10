@@ -30,10 +30,11 @@ def main():
         elif choice == "D":
             display(projects)
         elif choice == "F":
-            date = input("Enter date as dd/mm/YYYY: ")
-            filter_projects(date, projects)
+            pass
+            # date = input("Enter date as dd/mm/YYYY: ")
+            # filter_projects(date, projects)
         elif choice == "A":
-            add(projects)
+            pass
         elif choice == "U":
             pass
         else:
@@ -80,8 +81,9 @@ def display(projects):
         print(" ", project)
 
 
-def filter_projects(date, projects):
-    """Display projects that start after the date entered by the user, sorted in date order."""
+#
+# def filter_projects(date, projects):
+#     """Display projects that start after the date entered by the user, sorted in date order."""
 
 
 # def update(projects):
