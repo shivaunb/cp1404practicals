@@ -1,3 +1,9 @@
+"""
+CP1404 Practical 8 - Modify Existing GUI Program
+Estimated Time: 30 minutes
+Actual Time: 23 minutes
+"""
+
 from kivy.app import App
 from kivy.lang import Builder
 
