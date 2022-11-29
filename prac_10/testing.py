@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 Practical
+CP1404 - Practical 10
 Testing demo using assert and doctest
 """
 
@@ -47,6 +47,7 @@ def run_tests():
 
 
 def phrase_to_sentence(phrase):
+    """Convert a phrase to a sentence by adding a capital letter and a full stop."""
     sentence = phrase.capitalize()
     if sentence[-1] != ".":
         sentence += '.'
